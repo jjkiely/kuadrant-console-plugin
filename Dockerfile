@@ -6,7 +6,7 @@ ADD . /usr/src/app
 WORKDIR /usr/src/app
 RUN yarn install && yarn build
 
-FROM registry.access.redhat.com/ubi9/nginx-124:1-10
+FROM registry.access.redhat.com/ubi9/nginx-124:9.6-1760386249
 
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
 USER 1001
