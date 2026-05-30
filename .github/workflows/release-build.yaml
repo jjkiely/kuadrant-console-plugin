@@ -13,7 +13,7 @@ env:
 jobs:
   build:
     name: Release Build and Push Multi-Arch Image
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
@@ -50,7 +50,7 @@ jobs:
   manifest:
     name: Create and Push Multi-Arch Release Manifest
     needs: build
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Install Buildah
         run: sudo apt-get update && sudo apt-get install -y buildah
