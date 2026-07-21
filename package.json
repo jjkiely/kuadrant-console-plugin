@@ -58,7 +58,7 @@
     "mochawesome-merge": "^4.3.0",
     "prettier": "^2.7.1",
     "prettier-stylelint": "^0.4.2",
-    "react": "^17.0.1",
+    "react": "^19.0.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.7.3",
