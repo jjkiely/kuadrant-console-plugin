@@ -30,7 +30,7 @@ jobs:
 
       - name: Build Release Image
         id: build
-        uses: redhat-actions/buildah-build@v2
+        uses: redhat-actions/buildah-build@v3
         with:
           image: ${{ env.REGISTRY }}/${{ env.IMAGE_BASE_NAME }}
           tags: ${{ github.event.release.name }}-${{ matrix.arch }}
