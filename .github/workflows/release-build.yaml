@@ -39,7 +39,7 @@ jobs:
             ./Dockerfile
 
       - name: Push Architecture-Specific Release Image
-        uses: redhat-actions/push-to-registry@v2
+        uses: redhat-actions/push-to-registry@v3
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ secrets.QUAY_USER }}
