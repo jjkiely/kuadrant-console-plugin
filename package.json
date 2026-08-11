@@ -54,7 +54,7 @@
     "eslint-plugin-react": "^7.29.1",
     "mocha": "^11.7.5",
     "mocha-junit-reporter": "^2.2.0",
-    "mochawesome": "^7.1.3",
+    "mochawesome": "^8.0.0",
     "mochawesome-merge": "^4.3.0",
     "prettier": "^2.7.1",
     "prettier-stylelint": "^0.4.2",
